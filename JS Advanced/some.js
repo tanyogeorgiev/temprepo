@@ -1,3 +1,3 @@
 (function(){
-console.log('iife')
+console.log('iifee e')
 })()
