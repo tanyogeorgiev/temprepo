@@ -17,6 +17,7 @@ let calc;
         expect(mathEnforcer.hasOwnProperty('subtractTen')).to.be.true;
         expect(mathEnforcer.hasOwnProperty('sum')).to.be.true;
     })
+
      it("should return 10 after addfive(5)", function() {
    let value = mathEnforcer.addFive(5);
     expect(value).to.be.equal(10);
@@ -26,8 +27,8 @@ let calc;
     expect(value).to.be.equal(5+5.2);
   });
    it("should return 10 after addfive(-5.2)", function() {
-   let value = mathEnforcer.addFive(-5.2);
-    expect(value).to.be.closeTo(5-5.2,0.01);
+   let value = mathEnforcer.addFive(-5.002);
+    expect(value).to.be.equal(-5.002+5);
   });
   
     it("should return undefined after addfive", function() {
@@ -38,30 +39,51 @@ let calc;
    let value = mathEnforcer.addFive('22');
     expect(value).to.be.undefined;
   });
+   it("should return undefined after addfive", function() {
+   let value = mathEnforcer.addFive([{A:'S'}]);
+    expect(value).to.be.undefined;
+  });
+  it("should return undefined after addfive", function() {
+   let value = mathEnforcer.addFive({A:'S'});
+    expect(value).to.be.undefined;
+  });
+    it("should return undefined after addfive", function() {
+   let value = mathEnforcer.addFive([2]);
+    expect(value).to.be.undefined;
+  });
 
      it("should return 10 after sum(5,5)", function() {
    let value = mathEnforcer.sum(5,5);
     expect(value).to.be.equal(10);
   });
      it("should return 10 after sum(0.01,5)", function() {
-   let value = mathEnforcer.sum(0.01,5);
-    expect(value).to.be.closeTo(5.01,0.01);
+   let value = mathEnforcer.sum(5.001,0.001);
+    expect(value).to.be.equal(5.001+0.001);
   });
     it("should return 10 after sum(5,-15)", function() {
    let value = mathEnforcer.sum(5,-15);
     expect(value).to.be.equal(5-15);
   });
     it("should return 10 after sum(5.1,5.2)", function() {
-   let value = mathEnforcer.sum(5.1,5.2);
-    expect(value).to.be.equal(5.1+5.2);
+   let value = mathEnforcer.sum(5.001,5.002);
+    expect(value).to.be.equal(5.001+5.002);
   });
   
     it("should return undefined after sum()", function() {
    let value = mathEnforcer.sum();
     expect(value).to.be.undefined;
   });
-   it("should return undefined after sum('2')", function() {
-   let value = mathEnforcer.sum();
+  it("should return undefined after sum()", function() {
+   let value = mathEnforcer.sum([2]);
+    expect(value).to.be.undefined;
+  });
+   it("should return undefined after sum()", function() {
+   let value = mathEnforcer.sum({A:'B'});
+    expect(value).to.be.undefined;
+  });
+
+   it("should return undefined after sum('20','10')", function() {
+   let value = mathEnforcer.sum('20','10');
     expect(value).to.be.undefined;
   });
 
@@ -71,24 +93,41 @@ let calc;
   });
   it("should return 10 after subtractTen(12)", function() {
    let value = mathEnforcer.subtractTen(-20012);
-    expect(value).to.be.equal(-10-20012);
+    expect(value).to.be.equal(-20012-10);
   });
   it("should return 10 after subtractTen(0.01)", function() {
-   let value = mathEnforcer.subtractTen(0.01);
-    expect(value).to.be.equal(-10+0.01);
+   let value = mathEnforcer.subtractTen(10.001);
+    expect(value).to.be.equal(10.001-10);
   });
    it("should return 10 after subtractTen(1.2)", function() {
    let value = mathEnforcer.subtractTen(1.2);
     expect(value).to.be.equal(1.2-10);
   });
+  it("should return 10 after subtractTen(1.2)", function() {
+   let value = mathEnforcer.subtractTen(0);
+    expect(value).to.be.equal(-10);
+  });
   
   
-    it("should return undefined after subtractTen", function() {
-   let value = mathEnforcer.subtractTen();
+  it("should return 10 after subtractTen(1.2)", function() {
+   let value = mathEnforcer.subtractTen(0);
+    expect(value).to.be.equal(-10);
+  });
+  
+  it("should return undefined after subtractTen", function() {
+   let value = mathEnforcer.subtractTen('ss');
+    expect(value).to.be.undefined;
+  });
+   it("should return undefined after subtractTen", function() {
+   let value = mathEnforcer.subtractTen(['2']);
     expect(value).to.be.undefined;
   });
   it("should return undefined after subtractTen", function() {
-   let value = mathEnforcer.subtractTen('ss');
+   let value = mathEnforcer.subtractTen({A:'B'});
+    expect(value).to.be.undefined;
+  });
+   it("should return undefined after subtractTen", function() {
+   let value = mathEnforcer.subtractTen([2]);
     expect(value).to.be.undefined;
   });
 })

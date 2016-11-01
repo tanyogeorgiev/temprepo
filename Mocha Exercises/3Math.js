@@ -18,5 +18,5 @@ let mathEnforcer = {
         return num1 + num2;
     }
 };
-console.log(mathEnforcer.sum('aaaa'))
+
 module.exports={mathEnforcer}
