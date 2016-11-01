@@ -1,15 +1,15 @@
 {
-  "reportTitle": "githubTemprepo",
+  "reportTitle": "temprepo",
   "stats": {
-    "suites": 3,
-    "tests": 35,
-    "passes": 35,
+    "suites": 4,
+    "tests": 36,
+    "passes": 36,
     "pending": 0,
     "failures": 0,
-    "start": "2016-11-01T13:43:19.287Z",
-    "end": "2016-11-01T13:43:19.362Z",
-    "duration": 75,
-    "testsRegistered": 35,
+    "start": "2016-11-01T17:13:51.207Z",
+    "end": "2016-11-01T17:13:51.402Z",
+    "duration": 195,
+    "testsRegistered": 36,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -30,7 +30,7 @@
             "title": "should return 3 for [1, 2]",
             "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1, 2]",
             "timedOut": false,
-            "duration": 2,
+            "duration": 3,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -38,15 +38,15 @@
             "pending": false,
             "code": "expect(sum([1, 2])).to.be.equal(3);",
             "isRoot": false,
-            "uuid": "d2c6da6b-8d54-4f84-9841-daae237cdd5f",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "e54405d7-7e95-455d-8b61-4d8a0f86ce18",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
             "title": "should return 1 for [1]",
             "fullTitle": "sum(arr) - sum array of numbers should return 1 for [1]",
             "timedOut": false,
-            "duration": 1,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -54,8 +54,8 @@
             "pending": false,
             "code": "expect(sum([1])).to.be.equal(1);",
             "isRoot": false,
-            "uuid": "ae98e86c-43a5-4671-865b-04a5738dc21f",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "23b4459a-3cea-437d-9b63-027254b0fbed",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
@@ -70,15 +70,15 @@
             "pending": false,
             "code": "expect(sum([])).to.be.equal(0);",
             "isRoot": false,
-            "uuid": "cc0cb0e0-e6e5-4f44-8929-94a81351099c",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "4b8e0340-aaef-47fd-99f2-0bbd64fbfae4",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
             "title": "should return 3 for [1.5, 2.5, -1]",
             "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1.5, 2.5, -1]",
             "timedOut": false,
-            "duration": 0,
+            "duration": 2,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -86,8 +86,8 @@
             "pending": false,
             "code": "expect(sum([1.5, 2.5, -1])).to.be.equal(3);",
             "isRoot": false,
-            "uuid": "8b0693f6-f520-4c15-831b-df4ab41df7d2",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "76a506be-7c17-4d3a-b7f1-e24a27b0dd92",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
@@ -102,8 +102,8 @@
             "pending": false,
             "code": "expect(sum([1, 2])).to.be.equal(3);",
             "isRoot": false,
-            "uuid": "b91b8d4a-342f-4e65-a1f3-a4ca51664c99",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "88d8ba41-7e9c-458e-b1a1-9ebba4137537",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           }
         ],
@@ -111,14 +111,14 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\first-test.js",
-        "uuid": "814a04ea-c72a-484e-a5b4-19409e97d794",
-        "fullFile": "d:\\Users\\asus\\Desktop\\Codding\\githubTemprepo\\test\\first-test.js",
+        "uuid": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
+        "fullFile": "E:\\GitHub\\temprepo\\test\\first-test.js",
         "passes": [
           {
             "title": "should return 3 for [1, 2]",
             "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1, 2]",
             "timedOut": false,
-            "duration": 2,
+            "duration": 3,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -126,15 +126,15 @@
             "pending": false,
             "code": "expect(sum([1, 2])).to.be.equal(3);",
             "isRoot": false,
-            "uuid": "d2c6da6b-8d54-4f84-9841-daae237cdd5f",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "e54405d7-7e95-455d-8b61-4d8a0f86ce18",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
             "title": "should return 1 for [1]",
             "fullTitle": "sum(arr) - sum array of numbers should return 1 for [1]",
             "timedOut": false,
-            "duration": 1,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -142,8 +142,8 @@
             "pending": false,
             "code": "expect(sum([1])).to.be.equal(1);",
             "isRoot": false,
-            "uuid": "ae98e86c-43a5-4671-865b-04a5738dc21f",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "23b4459a-3cea-437d-9b63-027254b0fbed",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
@@ -158,15 +158,15 @@
             "pending": false,
             "code": "expect(sum([])).to.be.equal(0);",
             "isRoot": false,
-            "uuid": "cc0cb0e0-e6e5-4f44-8929-94a81351099c",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "4b8e0340-aaef-47fd-99f2-0bbd64fbfae4",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
             "title": "should return 3 for [1.5, 2.5, -1]",
             "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1.5, 2.5, -1]",
             "timedOut": false,
-            "duration": 0,
+            "duration": 2,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -174,8 +174,8 @@
             "pending": false,
             "code": "expect(sum([1.5, 2.5, -1])).to.be.equal(3);",
             "isRoot": false,
-            "uuid": "8b0693f6-f520-4c15-831b-df4ab41df7d2",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "76a506be-7c17-4d3a-b7f1-e24a27b0dd92",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           },
           {
@@ -190,8 +190,8 @@
             "pending": false,
             "code": "expect(sum([1, 2])).to.be.equal(3);",
             "isRoot": false,
-            "uuid": "b91b8d4a-342f-4e65-a1f3-a4ca51664c99",
-            "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+            "uuid": "88d8ba41-7e9c-458e-b1a1-9ebba4137537",
+            "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
             "skipped": false
           }
         ],
@@ -208,7 +208,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 3
+        "duration": 5
       },
       {
         "title": "Tests for rgbToHexColor()",
@@ -218,7 +218,7 @@
             "title": "should return #B0171F on rgbToHexColor(176,\t23,\t31)",
             "fullTitle": "Tests for rgbToHexColor() should return #B0171F on rgbToHexColor(176,\t23,\t31)",
             "timedOut": false,
-            "duration": 2,
+            "duration": 4,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -226,15 +226,15 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.equal(<span class=\"hljs-string\">'#B0171F'</span>);<br>expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.be.an(<span class=\"hljs-string\">'string'</span>);",
             "isRoot": false,
-            "uuid": "71f8d52d-fa3c-4b14-9b7c-0013047d90e9",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "63fa7003-701f-4622-879b-8234b05fa13f",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
             "title": "should return undefined on rgbToHexColor(176,\t23,\t-31)",
             "fullTitle": "Tests for rgbToHexColor() should return undefined on rgbToHexColor(176,\t23,\t-31)",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -242,8 +242,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(176, 23, -31)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "68ae8346-24b0-4410-87b9-3dc3210c4f56",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "b1a3d51d-62e4-4a3a-8d15-315b5a1e0d2b",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -258,8 +258,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>)).to.equal(<span class=\"hljs-string\">'#000000'</span>);",
             "isRoot": false,
-            "uuid": "8c19a234-fb71-46e5-badc-9d31bf8e14d7",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "0dc0c651-7069-478c-9fd4-bec126d09c06",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -274,15 +274,15 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>)).to.equal(<span class=\"hljs-string\">'#FFFFFF'</span>);",
             "isRoot": false,
-            "uuid": "b234505e-7e28-43f0-9a5e-51071c3651dd",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "63be7023-5943-420f-8664-b52abb2690ae",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
             "title": "should return #002264 on rgbToHexColor(0, 34, 100)",
             "fullTitle": "Tests for rgbToHexColor() should return #002264 on rgbToHexColor(0, 34, 100)",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -290,8 +290,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>, <span class=\"hljs-number\">34</span>, <span class=\"hljs-number\">100</span>)).to.equal(<span class=\"hljs-string\">'#002264'</span>);",
             "isRoot": false,
-            "uuid": "ce33beeb-d4b1-4661-9ce0-e568bd7f3a93",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "9f82f52f-01a5-41be-9701-0a672e0470ae",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -306,8 +306,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(0, 34)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "b12add3b-35b6-45fb-a930-b221354199d2",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "266aac16-65b8-4232-a227-8c703ca2e616",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -322,8 +322,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(255, 255, 256)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "9ab692dc-a8b5-40bd-b7d1-5978f8012e29",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "e3e3502d-0f10-4ed6-a09c-92acda94226b",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -338,8 +338,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(0, -1, 0)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "360e3cae-3adc-447d-8481-63743ad412d7",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "4d2400b9-234d-461a-80d4-d31a196e885f",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -354,8 +354,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(0)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "e454c4cb-9db9-47ce-a783-41c728e413ad",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "206c4318-c0d5-420a-8fc5-a854dfe2507a",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -370,8 +370,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-string\">\"pesho\"</span>)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "4509825c-6317-4e7b-b0de-953ccad83325",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "82fd83cc-7b15-4bd3-b097-6d6674d614e8",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -386,8 +386,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor([])).to.be.undefined;",
             "isRoot": false,
-            "uuid": "ea0de01c-1bba-4621-a4d1-7c007101e296",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "b0774d79-5af1-4e00-88b1-afd67bf2c1e7",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           }
         ],
@@ -395,14 +395,14 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\some-test.js",
-        "uuid": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
-        "fullFile": "d:\\Users\\asus\\Desktop\\Codding\\githubTemprepo\\test\\some-test.js",
+        "uuid": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
+        "fullFile": "E:\\GitHub\\temprepo\\test\\some-test.js",
         "passes": [
           {
             "title": "should return #B0171F on rgbToHexColor(176,\t23,\t31)",
             "fullTitle": "Tests for rgbToHexColor() should return #B0171F on rgbToHexColor(176,\t23,\t31)",
             "timedOut": false,
-            "duration": 2,
+            "duration": 4,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -410,15 +410,15 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.equal(<span class=\"hljs-string\">'#B0171F'</span>);<br>expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.be.an(<span class=\"hljs-string\">'string'</span>);",
             "isRoot": false,
-            "uuid": "71f8d52d-fa3c-4b14-9b7c-0013047d90e9",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "63fa7003-701f-4622-879b-8234b05fa13f",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
             "title": "should return undefined on rgbToHexColor(176,\t23,\t-31)",
             "fullTitle": "Tests for rgbToHexColor() should return undefined on rgbToHexColor(176,\t23,\t-31)",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -426,8 +426,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(176, 23, -31)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "68ae8346-24b0-4410-87b9-3dc3210c4f56",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "b1a3d51d-62e4-4a3a-8d15-315b5a1e0d2b",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -442,8 +442,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>)).to.equal(<span class=\"hljs-string\">'#000000'</span>);",
             "isRoot": false,
-            "uuid": "8c19a234-fb71-46e5-badc-9d31bf8e14d7",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "0dc0c651-7069-478c-9fd4-bec126d09c06",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -458,15 +458,15 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>)).to.equal(<span class=\"hljs-string\">'#FFFFFF'</span>);",
             "isRoot": false,
-            "uuid": "b234505e-7e28-43f0-9a5e-51071c3651dd",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "63be7023-5943-420f-8664-b52abb2690ae",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
             "title": "should return #002264 on rgbToHexColor(0, 34, 100)",
             "fullTitle": "Tests for rgbToHexColor() should return #002264 on rgbToHexColor(0, 34, 100)",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -474,8 +474,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>, <span class=\"hljs-number\">34</span>, <span class=\"hljs-number\">100</span>)).to.equal(<span class=\"hljs-string\">'#002264'</span>);",
             "isRoot": false,
-            "uuid": "ce33beeb-d4b1-4661-9ce0-e568bd7f3a93",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "9f82f52f-01a5-41be-9701-0a672e0470ae",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -490,8 +490,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(0, 34)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "b12add3b-35b6-45fb-a930-b221354199d2",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "266aac16-65b8-4232-a227-8c703ca2e616",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -506,8 +506,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(255, 255, 256)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "9ab692dc-a8b5-40bd-b7d1-5978f8012e29",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "e3e3502d-0f10-4ed6-a09c-92acda94226b",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -522,8 +522,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(0, -1, 0)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "360e3cae-3adc-447d-8481-63743ad412d7",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "4d2400b9-234d-461a-80d4-d31a196e885f",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -538,8 +538,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(0)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "e454c4cb-9db9-47ce-a783-41c728e413ad",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "206c4318-c0d5-420a-8fc5-a854dfe2507a",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -554,8 +554,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor(<span class=\"hljs-string\">\"pesho\"</span>)).to.be.undefined;",
             "isRoot": false,
-            "uuid": "4509825c-6317-4e7b-b0de-953ccad83325",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "82fd83cc-7b15-4bd3-b097-6d6674d614e8",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           },
           {
@@ -570,8 +570,8 @@
             "pending": false,
             "code": "expect(rgbToHexColor([])).to.be.undefined;",
             "isRoot": false,
-            "uuid": "ea0de01c-1bba-4621-a4d1-7c007101e296",
-            "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+            "uuid": "b0774d79-5af1-4e00-88b1-afd67bf2c1e7",
+            "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
             "skipped": false
           }
         ],
@@ -588,7 +588,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 2
+        "duration": 6
       },
       {
         "title": "Test calculator createCalculator()",
@@ -598,7 +598,7 @@
             "title": "should be object, instance of calculator",
             "fullTitle": "Test calculator createCalculator() should be object, instance of calculator",
             "timedOut": false,
-            "duration": 1,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -606,15 +606,15 @@
             "pending": false,
             "code": "expect(calculator).to.be.an(<span class=\"hljs-string\">'object'</span>);",
             "isRoot": false,
-            "uuid": "cf446abe-20f2-4906-90e3-763366aadec6",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "8996bdc2-63e2-47be-9561-48f21bacb048",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should have add, subtract, get functions",
             "fullTitle": "Test calculator createCalculator() should have add, subtract, get functions",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -622,15 +622,15 @@
             "pending": false,
             "code": "expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'add'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'subtract'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'get'</span>)).to.be.true;",
             "isRoot": false,
-            "uuid": "39c795a2-f085-4522-8f47-1841ffff753c",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "86b4b3a4-eb51-4d8b-9bb1-c2f3888cd4e6",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return 0 on get on empty calculator",
             "fullTitle": "Test calculator createCalculator() should return 0 on get on empty calculator",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -638,8 +638,8 @@
             "pending": false,
             "code": "expect(calculator.get()).to.equal(0);",
             "isRoot": false,
-            "uuid": "c9663aee-21aa-40fd-843a-e74d7fc2b1df",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "31e9aa4b-63d6-4eaf-9257-427527dae647",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -654,8 +654,8 @@
             "pending": false,
             "code": "calculator.add(5);<br>expect(calculator.get()).to.equal(5);",
             "isRoot": false,
-            "uuid": "1162a399-4eae-43c6-9f35-58e9e665b360",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "921c66dd-890c-4e72-82bd-0a8112cd7ef2",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -670,15 +670,15 @@
             "pending": false,
             "code": "calculator.add(<span class=\"hljs-string\">\"5\"</span>);<br>expect(calculator.get()).to.equal(<span class=\"hljs-number\">5</span>);",
             "isRoot": false,
-            "uuid": "aace0e72-6555-4f27-99e0-80871d7e5b68",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "462fd412-4f67-4344-a1af-3c9e454817d7",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return -5 on {subtract 5, get}",
             "fullTitle": "Test calculator createCalculator() should return -5 on {subtract 5, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -686,15 +686,15 @@
             "pending": false,
             "code": "calculator.subtract(5);<br>expect(calculator.get()).to.equal(-5);",
             "isRoot": false,
-            "uuid": "3d23e8b0-5805-4901-b9f2-15411344e697",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "91c4a2a5-70e6-4149-8be2-e16653a94904",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return -280 on {add -70, add -70, add -70, add -70, get}",
             "fullTitle": "Test calculator createCalculator() should return -280 on {add -70, add -70, add -70, add -70, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -702,8 +702,8 @@
             "pending": false,
             "code": "calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>expect(calculator.get()).to.equal(-280);",
             "isRoot": false,
-            "uuid": "d4063be6-be05-462b-9aa5-c687cfc3adf6",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "2b37e001-8b4d-46a6-a62a-9c4b369bbc13",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -718,8 +718,8 @@
             "pending": false,
             "code": "calculator.subtract(5);<br>calculator.subtract(5);<br>expect(calculator.get()).to.equal(-10);",
             "isRoot": false,
-            "uuid": "f0fae47f-f3fa-446b-b138-50bc3a5bd4df",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "ba82631b-c373-4d88-90b8-6801a23b52e7",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -734,8 +734,8 @@
             "pending": false,
             "code": "calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(69);",
             "isRoot": false,
-            "uuid": "d1322ea7-1b79-4840-8ddd-981a7b4cdc48",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "2e95fcd6-bdde-43c2-9ca1-880fc783bf76",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -750,8 +750,8 @@
             "pending": false,
             "code": "calculator.add(70);<br>calculator.subtract(1);<br>calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(138);",
             "isRoot": false,
-            "uuid": "984954d0-c343-41df-95c8-da2a46143f75",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "b74d422d-f326-4858-800f-0300e1f18c8e",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -766,8 +766,8 @@
             "pending": false,
             "code": "calculator.subtract(1);<br>calculator.add(70);<br>expect(calculator.get()).to.equal(69);",
             "isRoot": false,
-            "uuid": "f46d3fe1-10a4-4430-8acd-c77dd15d54f4",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "9ea6be58-00c5-4d39-90ad-4c9346b1d263",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -782,8 +782,8 @@
             "pending": false,
             "code": "calculator.add(0.1);<br>calculator.add(0.2);<br>expect(calculator.get()).to.equal(0.1 + 0.2);",
             "isRoot": false,
-            "uuid": "fcfb414c-6ec3-46b6-92d6-cd5f826482f2",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "af3698a3-e7ba-41a0-b622-3d58e7ef980b",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -798,8 +798,8 @@
             "pending": false,
             "code": "calculator.add(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "546eec87-70b7-433d-86ec-767310b5bd4c",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "80ea0efb-87a6-437b-b0f4-837141b9583e",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -814,15 +814,15 @@
             "pending": false,
             "code": "calculator.subtract(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "942e225c-3ef3-4183-999a-246ad3eaf404",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "30c0a6e3-89e1-468c-92b4-d587b2d8f190",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return 3 on {add 1.1, add 2.9, get}",
             "fullTitle": "Test calculator createCalculator() should return 3 on {add 1.1, add 2.9, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -830,8 +830,8 @@
             "pending": false,
             "code": "calculator.add(1.1);<br>calculator.add(2.9);<br>expect(calculator.get()).to.equal(1.1 + 2.9);",
             "isRoot": false,
-            "uuid": "a0eda800-677b-4210-b2fa-4f46f7ff646b",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "c3cd700b-ec8a-4ed2-8b5c-54441cfced80",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -846,8 +846,8 @@
             "pending": false,
             "code": "calculator.add(1.5);<br>calculator.subtract(18.54);<br>expect(calculator.get()).to.equal(1.5 - 18.54);",
             "isRoot": false,
-            "uuid": "bde17227-b3d1-458c-93be-fabdc63afed6",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "41a274c5-2d40-4a4a-ae4c-79c051ad234b",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -862,8 +862,8 @@
             "pending": false,
             "code": "calculator.subtract(18);<br>calculator.add(1.5);<br>expect(calculator.get()).to.equal(1.5 - 18);",
             "isRoot": false,
-            "uuid": "41af8e9c-cfe6-4559-860d-afc538a325c8",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "f44b9056-0177-4db7-8af6-701c6b44d22f",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -878,15 +878,15 @@
             "pending": false,
             "code": "calculator.add();<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "196168a9-0a75-4fdd-af22-d582478f49f4",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "162a18a5-1922-4c3c-8237-47371545f369",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return NaN on {subtract EMPTY, get}",
             "fullTitle": "Test calculator createCalculator() should return NaN on {subtract EMPTY, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -894,8 +894,8 @@
             "pending": false,
             "code": "calculator.subtract();<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "4420fdb5-f5c1-4f72-8c0b-54b59b9396ad",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "864ea88e-45b6-4f1d-84d1-3470361a85e5",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           }
         ],
@@ -903,14 +903,14 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\sother-test.js",
-        "uuid": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
-        "fullFile": "d:\\Users\\asus\\Desktop\\Codding\\githubTemprepo\\test\\sother-test.js",
+        "uuid": "98fc7181-bb97-4623-9faa-902e7070add4",
+        "fullFile": "E:\\GitHub\\temprepo\\test\\sother-test.js",
         "passes": [
           {
             "title": "should be object, instance of calculator",
             "fullTitle": "Test calculator createCalculator() should be object, instance of calculator",
             "timedOut": false,
-            "duration": 1,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -918,15 +918,15 @@
             "pending": false,
             "code": "expect(calculator).to.be.an(<span class=\"hljs-string\">'object'</span>);",
             "isRoot": false,
-            "uuid": "cf446abe-20f2-4906-90e3-763366aadec6",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "8996bdc2-63e2-47be-9561-48f21bacb048",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should have add, subtract, get functions",
             "fullTitle": "Test calculator createCalculator() should have add, subtract, get functions",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -934,15 +934,15 @@
             "pending": false,
             "code": "expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'add'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'subtract'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'get'</span>)).to.be.true;",
             "isRoot": false,
-            "uuid": "39c795a2-f085-4522-8f47-1841ffff753c",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "86b4b3a4-eb51-4d8b-9bb1-c2f3888cd4e6",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return 0 on get on empty calculator",
             "fullTitle": "Test calculator createCalculator() should return 0 on get on empty calculator",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -950,8 +950,8 @@
             "pending": false,
             "code": "expect(calculator.get()).to.equal(0);",
             "isRoot": false,
-            "uuid": "c9663aee-21aa-40fd-843a-e74d7fc2b1df",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "31e9aa4b-63d6-4eaf-9257-427527dae647",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -966,8 +966,8 @@
             "pending": false,
             "code": "calculator.add(5);<br>expect(calculator.get()).to.equal(5);",
             "isRoot": false,
-            "uuid": "1162a399-4eae-43c6-9f35-58e9e665b360",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "921c66dd-890c-4e72-82bd-0a8112cd7ef2",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -982,15 +982,15 @@
             "pending": false,
             "code": "calculator.add(<span class=\"hljs-string\">\"5\"</span>);<br>expect(calculator.get()).to.equal(<span class=\"hljs-number\">5</span>);",
             "isRoot": false,
-            "uuid": "aace0e72-6555-4f27-99e0-80871d7e5b68",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "462fd412-4f67-4344-a1af-3c9e454817d7",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return -5 on {subtract 5, get}",
             "fullTitle": "Test calculator createCalculator() should return -5 on {subtract 5, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -998,15 +998,15 @@
             "pending": false,
             "code": "calculator.subtract(5);<br>expect(calculator.get()).to.equal(-5);",
             "isRoot": false,
-            "uuid": "3d23e8b0-5805-4901-b9f2-15411344e697",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "91c4a2a5-70e6-4149-8be2-e16653a94904",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return -280 on {add -70, add -70, add -70, add -70, get}",
             "fullTitle": "Test calculator createCalculator() should return -280 on {add -70, add -70, add -70, add -70, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -1014,8 +1014,8 @@
             "pending": false,
             "code": "calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>expect(calculator.get()).to.equal(-280);",
             "isRoot": false,
-            "uuid": "d4063be6-be05-462b-9aa5-c687cfc3adf6",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "2b37e001-8b4d-46a6-a62a-9c4b369bbc13",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1030,8 +1030,8 @@
             "pending": false,
             "code": "calculator.subtract(5);<br>calculator.subtract(5);<br>expect(calculator.get()).to.equal(-10);",
             "isRoot": false,
-            "uuid": "f0fae47f-f3fa-446b-b138-50bc3a5bd4df",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "ba82631b-c373-4d88-90b8-6801a23b52e7",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1046,8 +1046,8 @@
             "pending": false,
             "code": "calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(69);",
             "isRoot": false,
-            "uuid": "d1322ea7-1b79-4840-8ddd-981a7b4cdc48",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "2e95fcd6-bdde-43c2-9ca1-880fc783bf76",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1062,8 +1062,8 @@
             "pending": false,
             "code": "calculator.add(70);<br>calculator.subtract(1);<br>calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(138);",
             "isRoot": false,
-            "uuid": "984954d0-c343-41df-95c8-da2a46143f75",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "b74d422d-f326-4858-800f-0300e1f18c8e",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1078,8 +1078,8 @@
             "pending": false,
             "code": "calculator.subtract(1);<br>calculator.add(70);<br>expect(calculator.get()).to.equal(69);",
             "isRoot": false,
-            "uuid": "f46d3fe1-10a4-4430-8acd-c77dd15d54f4",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "9ea6be58-00c5-4d39-90ad-4c9346b1d263",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1094,8 +1094,8 @@
             "pending": false,
             "code": "calculator.add(0.1);<br>calculator.add(0.2);<br>expect(calculator.get()).to.equal(0.1 + 0.2);",
             "isRoot": false,
-            "uuid": "fcfb414c-6ec3-46b6-92d6-cd5f826482f2",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "af3698a3-e7ba-41a0-b622-3d58e7ef980b",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1110,8 +1110,8 @@
             "pending": false,
             "code": "calculator.add(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "546eec87-70b7-433d-86ec-767310b5bd4c",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "80ea0efb-87a6-437b-b0f4-837141b9583e",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1126,15 +1126,15 @@
             "pending": false,
             "code": "calculator.subtract(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "942e225c-3ef3-4183-999a-246ad3eaf404",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "30c0a6e3-89e1-468c-92b4-d587b2d8f190",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return 3 on {add 1.1, add 2.9, get}",
             "fullTitle": "Test calculator createCalculator() should return 3 on {add 1.1, add 2.9, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -1142,8 +1142,8 @@
             "pending": false,
             "code": "calculator.add(1.1);<br>calculator.add(2.9);<br>expect(calculator.get()).to.equal(1.1 + 2.9);",
             "isRoot": false,
-            "uuid": "a0eda800-677b-4210-b2fa-4f46f7ff646b",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "c3cd700b-ec8a-4ed2-8b5c-54441cfced80",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1158,8 +1158,8 @@
             "pending": false,
             "code": "calculator.add(1.5);<br>calculator.subtract(18.54);<br>expect(calculator.get()).to.equal(1.5 - 18.54);",
             "isRoot": false,
-            "uuid": "bde17227-b3d1-458c-93be-fabdc63afed6",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "41a274c5-2d40-4a4a-ae4c-79c051ad234b",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1174,8 +1174,8 @@
             "pending": false,
             "code": "calculator.subtract(18);<br>calculator.add(1.5);<br>expect(calculator.get()).to.equal(1.5 - 18);",
             "isRoot": false,
-            "uuid": "41af8e9c-cfe6-4559-860d-afc538a325c8",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "f44b9056-0177-4db7-8af6-701c6b44d22f",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
@@ -1190,15 +1190,15 @@
             "pending": false,
             "code": "calculator.add();<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "196168a9-0a75-4fdd-af22-d582478f49f4",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "162a18a5-1922-4c3c-8237-47371545f369",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           },
           {
             "title": "should return NaN on {subtract EMPTY, get}",
             "fullTitle": "Test calculator createCalculator() should return NaN on {subtract EMPTY, get}",
             "timedOut": false,
-            "duration": 0,
+            "duration": 1,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -1206,8 +1206,8 @@
             "pending": false,
             "code": "calculator.subtract();<br>expect(calculator.get()).to.be.NaN;",
             "isRoot": false,
-            "uuid": "4420fdb5-f5c1-4f72-8c0b-54b59b9396ad",
-            "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+            "uuid": "864ea88e-45b6-4f1d-84d1-3470361a85e5",
+            "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
             "skipped": false
           }
         ],
@@ -1224,6 +1224,66 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
+        "duration": 6
+      },
+      {
+        "title": "sum(arr)",
+        "suites": [],
+        "tests": [
+          {
+            "title": "should return 3 for [1, 2]",
+            "fullTitle": "sum(arr) should return 3 for [1, 2]",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(sum([1, 2])).to.be.equal(3);",
+            "isRoot": false,
+            "uuid": "cab66fd4-575b-43a2-9684-5d12924cc8e8",
+            "parentUUID": "6d686179-a167-48d3-b8de-534742224302",
+            "skipped": false
+          }
+        ],
+        "pending": [],
+        "root": false,
+        "_timeout": 2000,
+        "file": "\\test\\SumArray-test.js",
+        "uuid": "6d686179-a167-48d3-b8de-534742224302",
+        "fullFile": "E:\\GitHub\\temprepo\\test\\SumArray-test.js",
+        "passes": [
+          {
+            "title": "should return 3 for [1, 2]",
+            "fullTitle": "sum(arr) should return 3 for [1, 2]",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(sum([1, 2])).to.be.equal(3);",
+            "isRoot": false,
+            "uuid": "cab66fd4-575b-43a2-9684-5d12924cc8e8",
+            "parentUUID": "6d686179-a167-48d3-b8de-534742224302",
+            "skipped": false
+          }
+        ],
+        "failures": [],
+        "skipped": [],
+        "hasTests": true,
+        "hasSuites": false,
+        "totalTests": 1,
+        "totalPasses": 1,
+        "totalFailures": 0,
+        "totalPending": 0,
+        "totalSkipped": 0,
+        "hasPasses": true,
+        "hasFailures": false,
+        "hasPending": false,
+        "hasSkipped": false,
         "duration": 1
       }
     ],
@@ -1231,7 +1291,7 @@
     "pending": [],
     "root": true,
     "_timeout": 2000,
-    "uuid": "b1a9d2f3-d1f2-4768-8f95-81e2008b8b76",
+    "uuid": "f41d9b00-e7ba-4128-a8de-10951e33415f",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -1256,7 +1316,7 @@
       "title": "should return 3 for [1, 2]",
       "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1, 2]",
       "timedOut": false,
-      "duration": 2,
+      "duration": 3,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1264,15 +1324,15 @@
       "pending": false,
       "code": "expect(sum([1, 2])).to.be.equal(3);",
       "isRoot": false,
-      "uuid": "0c41329d-aeed-4ec6-b451-3943edaa3a21",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "e13d9c46-c0f9-4de7-b6e2-bbabecab153b",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
       "title": "should return 1 for [1]",
       "fullTitle": "sum(arr) - sum array of numbers should return 1 for [1]",
       "timedOut": false,
-      "duration": 1,
+      "duration": 0,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1280,8 +1340,8 @@
       "pending": false,
       "code": "expect(sum([1])).to.be.equal(1);",
       "isRoot": false,
-      "uuid": "5a5f44fb-27b9-44c9-b8c7-18b1a308917f",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "9c6b2e58-3b27-477c-b8ec-b11180dab666",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
@@ -1296,15 +1356,15 @@
       "pending": false,
       "code": "expect(sum([])).to.be.equal(0);",
       "isRoot": false,
-      "uuid": "17b31774-e84d-46c6-943a-ea3d19dffbc1",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "bc58df4d-5ea7-427e-a4dc-4a7db30293a5",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
       "title": "should return 3 for [1.5, 2.5, -1]",
       "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1.5, 2.5, -1]",
       "timedOut": false,
-      "duration": 0,
+      "duration": 2,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1312,8 +1372,8 @@
       "pending": false,
       "code": "expect(sum([1.5, 2.5, -1])).to.be.equal(3);",
       "isRoot": false,
-      "uuid": "c54e9d96-40ed-4b72-8fe0-bbef4a3f9a1a",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "e261fa99-6366-4778-8240-83d2a166edb8",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
@@ -1328,15 +1388,15 @@
       "pending": false,
       "code": "expect(sum([1, 2])).to.be.equal(3);",
       "isRoot": false,
-      "uuid": "08857828-7b6a-48fa-be34-af8c8154f28d",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "9b54d5e9-85e0-439f-9a1c-4947a85e235e",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
       "title": "should return #B0171F on rgbToHexColor(176,\t23,\t31)",
       "fullTitle": "Tests for rgbToHexColor() should return #B0171F on rgbToHexColor(176,\t23,\t31)",
       "timedOut": false,
-      "duration": 2,
+      "duration": 4,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1344,15 +1404,15 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.equal(<span class=\"hljs-string\">'#B0171F'</span>);<br>expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.be.an(<span class=\"hljs-string\">'string'</span>);",
       "isRoot": false,
-      "uuid": "96fea452-9b38-47dd-a27d-00539ee1ad09",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "e873d70b-bfd7-4d0c-9eab-95af86145c78",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
       "title": "should return undefined on rgbToHexColor(176,\t23,\t-31)",
       "fullTitle": "Tests for rgbToHexColor() should return undefined on rgbToHexColor(176,\t23,\t-31)",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1360,8 +1420,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(176, 23, -31)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "e4101e1f-d5b7-4629-996e-df9453eb2219",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "5abd6dba-1b81-4612-b8e6-4c2c3e4791fc",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1376,8 +1436,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>)).to.equal(<span class=\"hljs-string\">'#000000'</span>);",
       "isRoot": false,
-      "uuid": "ecdb9e01-8a38-4879-94cb-ca9ea512e6fe",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "1886e73c-72c8-4f90-9094-a8e9db592675",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1392,15 +1452,15 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>)).to.equal(<span class=\"hljs-string\">'#FFFFFF'</span>);",
       "isRoot": false,
-      "uuid": "70c1b67e-ea44-4119-904d-af6a9571f6e8",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "0e074b3e-0b86-47a3-a143-fa11517d1383",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
       "title": "should return #002264 on rgbToHexColor(0, 34, 100)",
       "fullTitle": "Tests for rgbToHexColor() should return #002264 on rgbToHexColor(0, 34, 100)",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1408,8 +1468,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>, <span class=\"hljs-number\">34</span>, <span class=\"hljs-number\">100</span>)).to.equal(<span class=\"hljs-string\">'#002264'</span>);",
       "isRoot": false,
-      "uuid": "356b76bc-fa52-404d-bfb8-ff1120bcf32b",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "417178ae-cb54-4b68-9c63-2953ee539a24",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1424,8 +1484,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(0, 34)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "9653fd21-72c5-46f6-84d1-e936a3f7bae7",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "8a594b5a-e562-45b3-aee9-1a6b84724fee",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1440,8 +1500,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(255, 255, 256)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "27205b46-a018-4cee-92c3-8ce04e4d691c",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "9e178fe5-9703-4b73-8a65-bfe958284d47",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1456,8 +1516,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(0, -1, 0)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "be6e11a6-2047-49bd-929d-2dbc1431a209",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "f2e14b23-3f9a-457f-9c72-f445991833e2",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1472,8 +1532,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(0)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "a53f4170-8a12-4252-a501-8294763d3a51",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "8322037c-9a9e-4204-8bc9-14193babe10e",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1488,8 +1548,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-string\">\"pesho\"</span>)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "5732a52e-640f-497a-a08b-012680a4cb86",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "fda12807-6c3a-4e2a-8ea4-1d034c1f0532",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1504,15 +1564,15 @@
       "pending": false,
       "code": "expect(rgbToHexColor([])).to.be.undefined;",
       "isRoot": false,
-      "uuid": "bc3b3cfc-2043-4a3e-a33f-03fc973781e0",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "9097b4ac-a2ed-4a2c-b942-4b36810ef3dc",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
       "title": "should be object, instance of calculator",
       "fullTitle": "Test calculator createCalculator() should be object, instance of calculator",
       "timedOut": false,
-      "duration": 1,
+      "duration": 0,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1520,15 +1580,15 @@
       "pending": false,
       "code": "expect(calculator).to.be.an(<span class=\"hljs-string\">'object'</span>);",
       "isRoot": false,
-      "uuid": "cb71750b-1711-4656-a81a-fe863d72c2ad",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "9581f1ed-2ce9-40ed-95f2-73b7c7cc1e10",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should have add, subtract, get functions",
       "fullTitle": "Test calculator createCalculator() should have add, subtract, get functions",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1536,15 +1596,15 @@
       "pending": false,
       "code": "expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'add'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'subtract'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'get'</span>)).to.be.true;",
       "isRoot": false,
-      "uuid": "bf32a9d3-30aa-4c84-9cb4-daf2444106b2",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "a6e681ca-f744-47c1-8306-5c3d1714af3c",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return 0 on get on empty calculator",
       "fullTitle": "Test calculator createCalculator() should return 0 on get on empty calculator",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1552,8 +1612,8 @@
       "pending": false,
       "code": "expect(calculator.get()).to.equal(0);",
       "isRoot": false,
-      "uuid": "d3d0b111-1838-4ec2-bdf1-8c696df4ca71",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "d8ea9187-24c2-4b39-972c-e5e6a985d712",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1568,8 +1628,8 @@
       "pending": false,
       "code": "calculator.add(5);<br>expect(calculator.get()).to.equal(5);",
       "isRoot": false,
-      "uuid": "a2b11106-69c3-4acf-aaaa-c97bf23210f2",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "1776b145-5c3f-460c-839a-dc887c50ebd0",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1584,15 +1644,15 @@
       "pending": false,
       "code": "calculator.add(<span class=\"hljs-string\">\"5\"</span>);<br>expect(calculator.get()).to.equal(<span class=\"hljs-number\">5</span>);",
       "isRoot": false,
-      "uuid": "2478b088-08c9-4a4e-9858-7e54d7208531",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "31bb0998-c8cb-4d51-a111-867baa787af8",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return -5 on {subtract 5, get}",
       "fullTitle": "Test calculator createCalculator() should return -5 on {subtract 5, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1600,15 +1660,15 @@
       "pending": false,
       "code": "calculator.subtract(5);<br>expect(calculator.get()).to.equal(-5);",
       "isRoot": false,
-      "uuid": "d84e21c7-5864-4f2e-87b4-17cd033286d5",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "a0285e85-0220-40ee-ae1d-bb9cb2c62d30",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return -280 on {add -70, add -70, add -70, add -70, get}",
       "fullTitle": "Test calculator createCalculator() should return -280 on {add -70, add -70, add -70, add -70, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1616,8 +1676,8 @@
       "pending": false,
       "code": "calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>expect(calculator.get()).to.equal(-280);",
       "isRoot": false,
-      "uuid": "72e12366-604d-49fd-9939-51306ec11125",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "6c28c7d4-696d-4f1f-a641-3fcee27d6f7f",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1632,8 +1692,8 @@
       "pending": false,
       "code": "calculator.subtract(5);<br>calculator.subtract(5);<br>expect(calculator.get()).to.equal(-10);",
       "isRoot": false,
-      "uuid": "31a5b3aa-6788-4ca7-8ca1-cbda521ac61d",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "2b1bbba0-14cd-4a27-81cf-a9e9c201866f",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1648,8 +1708,8 @@
       "pending": false,
       "code": "calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(69);",
       "isRoot": false,
-      "uuid": "461ff6df-168b-4df6-bd2a-4f3ea0eb561d",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "ebf0866a-1191-4bc8-be89-6d998ac5b024",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1664,8 +1724,8 @@
       "pending": false,
       "code": "calculator.add(70);<br>calculator.subtract(1);<br>calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(138);",
       "isRoot": false,
-      "uuid": "9edfde54-ebb4-4e74-909d-9424cfab1674",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "162bd220-5148-4cdb-9a9a-96bd83d6512b",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1680,8 +1740,8 @@
       "pending": false,
       "code": "calculator.subtract(1);<br>calculator.add(70);<br>expect(calculator.get()).to.equal(69);",
       "isRoot": false,
-      "uuid": "4b97fde3-6994-45ec-8fb2-2e8bd6034c16",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "05994e45-0899-49dc-b3d6-ba2289c7fd0b",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1696,8 +1756,8 @@
       "pending": false,
       "code": "calculator.add(0.1);<br>calculator.add(0.2);<br>expect(calculator.get()).to.equal(0.1 + 0.2);",
       "isRoot": false,
-      "uuid": "48a6d5c2-fb1c-4efd-8101-28e61ccc7c21",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "b57d2a0c-6c48-4d79-b8ca-530f6b2838e2",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1712,8 +1772,8 @@
       "pending": false,
       "code": "calculator.add(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "9da5fad2-95a6-4beb-88f0-25153dbc9a66",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "952a52a3-5267-4616-ad3c-efc7cfa7bfa2",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1728,15 +1788,15 @@
       "pending": false,
       "code": "calculator.subtract(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "758f89f9-0d43-4c35-b2c5-775e9aaa1049",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "50f14899-fd37-496c-9522-9912edd81e81",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return 3 on {add 1.1, add 2.9, get}",
       "fullTitle": "Test calculator createCalculator() should return 3 on {add 1.1, add 2.9, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1744,8 +1804,8 @@
       "pending": false,
       "code": "calculator.add(1.1);<br>calculator.add(2.9);<br>expect(calculator.get()).to.equal(1.1 + 2.9);",
       "isRoot": false,
-      "uuid": "37dcf3fc-af42-4f0a-8bed-13996bab73ac",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "94696774-12e5-4a9d-8041-6020dbf7e8e2",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1760,8 +1820,8 @@
       "pending": false,
       "code": "calculator.add(1.5);<br>calculator.subtract(18.54);<br>expect(calculator.get()).to.equal(1.5 - 18.54);",
       "isRoot": false,
-      "uuid": "fe270380-fb86-4ad7-9b00-d361db8bf337",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "1891c479-83e1-41a7-85d5-f607b64c4d66",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1776,8 +1836,8 @@
       "pending": false,
       "code": "calculator.subtract(18);<br>calculator.add(1.5);<br>expect(calculator.get()).to.equal(1.5 - 18);",
       "isRoot": false,
-      "uuid": "8c6987e2-c810-4e76-b222-d98b6e3a7c24",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "9d2531dd-4e00-4e8d-b374-7d75313d9274",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -1792,15 +1852,15 @@
       "pending": false,
       "code": "calculator.add();<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "333a9e65-8f04-4b76-9323-8679ea19c113",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "0787cb6a-8eea-45e4-8f74-196b9ffc18c9",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return NaN on {subtract EMPTY, get}",
       "fullTitle": "Test calculator createCalculator() should return NaN on {subtract EMPTY, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1808,8 +1868,24 @@
       "pending": false,
       "code": "calculator.subtract();<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "733c683b-47e5-4694-aec8-ff0d813ff227",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "6606a1a2-89f8-4f9a-aff2-ccd7cd4c7e05",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
+      "skipped": false
+    },
+    {
+      "title": "should return 3 for [1, 2]",
+      "fullTitle": "sum(arr) should return 3 for [1, 2]",
+      "timedOut": false,
+      "duration": 1,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "expect(sum([1, 2])).to.be.equal(3);",
+      "isRoot": false,
+      "uuid": "e01355fb-baf8-4e1d-b982-851395778bc0",
+      "parentUUID": "6d686179-a167-48d3-b8de-534742224302",
       "skipped": false
     }
   ],
@@ -1819,7 +1895,7 @@
       "title": "should return 3 for [1, 2]",
       "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1, 2]",
       "timedOut": false,
-      "duration": 2,
+      "duration": 3,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1827,15 +1903,15 @@
       "pending": false,
       "code": "expect(sum([1, 2])).to.be.equal(3);",
       "isRoot": false,
-      "uuid": "009ae0e1-365b-4d2b-bc47-8350bed13b84",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "5c988c80-9195-4627-92f1-230b24b113d9",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
       "title": "should return 1 for [1]",
       "fullTitle": "sum(arr) - sum array of numbers should return 1 for [1]",
       "timedOut": false,
-      "duration": 1,
+      "duration": 0,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1843,8 +1919,8 @@
       "pending": false,
       "code": "expect(sum([1])).to.be.equal(1);",
       "isRoot": false,
-      "uuid": "02f0dfc3-e1bf-4814-9388-ebe39a1788b3",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "e6a735fb-8f37-4b7b-9ff9-f85f3db1fe93",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
@@ -1859,15 +1935,15 @@
       "pending": false,
       "code": "expect(sum([])).to.be.equal(0);",
       "isRoot": false,
-      "uuid": "b5f5a66a-ca08-4b9f-9932-4934834f2fe3",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "72441222-3861-4486-86ec-e334902e220c",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
       "title": "should return 3 for [1.5, 2.5, -1]",
       "fullTitle": "sum(arr) - sum array of numbers should return 3 for [1.5, 2.5, -1]",
       "timedOut": false,
-      "duration": 0,
+      "duration": 2,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1875,8 +1951,8 @@
       "pending": false,
       "code": "expect(sum([1.5, 2.5, -1])).to.be.equal(3);",
       "isRoot": false,
-      "uuid": "76f1c31f-4cdf-4a1f-ad18-7f2c9c31cde7",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "9063df8c-7396-42e9-8486-89ab47eb85e6",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
@@ -1891,15 +1967,15 @@
       "pending": false,
       "code": "expect(sum([1, 2])).to.be.equal(3);",
       "isRoot": false,
-      "uuid": "aecc0d61-68e2-42ba-b327-e10f8d098cba",
-      "parentUUID": "814a04ea-c72a-484e-a5b4-19409e97d794",
+      "uuid": "319e77e3-6bee-4e11-a872-54b02517c940",
+      "parentUUID": "d752842a-dec6-4bdb-8b7c-4f78612c053b",
       "skipped": false
     },
     {
       "title": "should return #B0171F on rgbToHexColor(176,\t23,\t31)",
       "fullTitle": "Tests for rgbToHexColor() should return #B0171F on rgbToHexColor(176,\t23,\t31)",
       "timedOut": false,
-      "duration": 2,
+      "duration": 4,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1907,15 +1983,15 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.equal(<span class=\"hljs-string\">'#B0171F'</span>);<br>expect(rgbToHexColor(<span class=\"hljs-number\">176</span>,\t<span class=\"hljs-number\">23</span>,\t<span class=\"hljs-number\">31</span>)).to.be.an(<span class=\"hljs-string\">'string'</span>);",
       "isRoot": false,
-      "uuid": "ab4a67c7-f1d2-47f7-89d6-15d11697a2ed",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "826fd9d1-0b88-460a-ba18-b109e9d18853",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
       "title": "should return undefined on rgbToHexColor(176,\t23,\t-31)",
       "fullTitle": "Tests for rgbToHexColor() should return undefined on rgbToHexColor(176,\t23,\t-31)",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1923,8 +1999,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(176, 23, -31)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "839b6cfe-e0c5-4936-b55e-62b8eeb39097",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "e13cdff5-3841-4aa7-ad54-fd0362972361",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1939,8 +2015,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>,<span class=\"hljs-number\">0</span>)).to.equal(<span class=\"hljs-string\">'#000000'</span>);",
       "isRoot": false,
-      "uuid": "21a7d1ca-ed79-4341-b401-c86342371c81",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "c4baa1d2-b3a0-45ce-a410-de12f5ec8ca7",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1955,15 +2031,15 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>, <span class=\"hljs-number\">255</span>)).to.equal(<span class=\"hljs-string\">'#FFFFFF'</span>);",
       "isRoot": false,
-      "uuid": "3dc2712d-73f6-4b4a-842f-a184914f264e",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "3687c2ad-462a-4318-994e-8775272955e1",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
       "title": "should return #002264 on rgbToHexColor(0, 34, 100)",
       "fullTitle": "Tests for rgbToHexColor() should return #002264 on rgbToHexColor(0, 34, 100)",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1971,8 +2047,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-number\">0</span>, <span class=\"hljs-number\">34</span>, <span class=\"hljs-number\">100</span>)).to.equal(<span class=\"hljs-string\">'#002264'</span>);",
       "isRoot": false,
-      "uuid": "4df19897-8949-4c78-b099-b538b62abd73",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "99edcdef-7b8c-43f8-aa0d-df91d170fc1d",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -1987,8 +2063,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(0, 34)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "018b5a7d-a59d-4d7a-ba5c-0b4673b3c874",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "8419bd02-3587-425e-926a-52f80323f861",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -2003,8 +2079,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(255, 255, 256)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "9ab2d4d7-a17b-4107-9ba8-71c515f91d54",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "e085f2b3-5ae3-41e3-a9e3-bbac38712b28",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -2019,8 +2095,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(0, -1, 0)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "3934df25-2301-4caa-8d31-f7a1152ee638",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "878919ca-1b21-4b84-91f7-4ddbf941f5c2",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -2035,8 +2111,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(0)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "6822e320-f8c3-4a92-8356-e486ac1e920b",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "23b63aca-20cf-42fe-bd8d-0e59841eec7d",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -2051,8 +2127,8 @@
       "pending": false,
       "code": "expect(rgbToHexColor(<span class=\"hljs-string\">\"pesho\"</span>)).to.be.undefined;",
       "isRoot": false,
-      "uuid": "5466289c-5a80-488d-aa66-648032123068",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "2f7d8256-f989-42ee-acb4-cfe2b13776e6",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
@@ -2067,15 +2143,15 @@
       "pending": false,
       "code": "expect(rgbToHexColor([])).to.be.undefined;",
       "isRoot": false,
-      "uuid": "359a7b9c-5990-487c-ae98-5bff76e6a979",
-      "parentUUID": "489c26d7-976f-44da-9bb0-0db8a5bebdf9",
+      "uuid": "4c5f8122-37c5-4ae6-8ffa-9c42806da7be",
+      "parentUUID": "6618a57f-415b-4a1b-8c0f-6cf07367ada7",
       "skipped": false
     },
     {
       "title": "should be object, instance of calculator",
       "fullTitle": "Test calculator createCalculator() should be object, instance of calculator",
       "timedOut": false,
-      "duration": 1,
+      "duration": 0,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2083,15 +2159,15 @@
       "pending": false,
       "code": "expect(calculator).to.be.an(<span class=\"hljs-string\">'object'</span>);",
       "isRoot": false,
-      "uuid": "798bfd61-f573-41dc-94b6-1c71cdbd8830",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "5ea510e1-094d-42d3-b43c-f598977c75b6",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should have add, subtract, get functions",
       "fullTitle": "Test calculator createCalculator() should have add, subtract, get functions",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2099,15 +2175,15 @@
       "pending": false,
       "code": "expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'add'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'subtract'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class=\"hljs-string\">'get'</span>)).to.be.true;",
       "isRoot": false,
-      "uuid": "93c4041d-adda-4d0f-9d48-626fa5f7d76d",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "2b4c38d7-8b26-42eb-90ab-2f39a6f78f4f",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return 0 on get on empty calculator",
       "fullTitle": "Test calculator createCalculator() should return 0 on get on empty calculator",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2115,8 +2191,8 @@
       "pending": false,
       "code": "expect(calculator.get()).to.equal(0);",
       "isRoot": false,
-      "uuid": "77342609-6b96-442a-94c9-ed38b3570aaa",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "829a1b71-b699-48c4-900a-f504d2e38094",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2131,8 +2207,8 @@
       "pending": false,
       "code": "calculator.add(5);<br>expect(calculator.get()).to.equal(5);",
       "isRoot": false,
-      "uuid": "16989d4f-5efb-4f71-9ec6-b03dec665e74",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "94c185ec-250e-4890-8c11-8f616e84acbe",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2147,15 +2223,15 @@
       "pending": false,
       "code": "calculator.add(<span class=\"hljs-string\">\"5\"</span>);<br>expect(calculator.get()).to.equal(<span class=\"hljs-number\">5</span>);",
       "isRoot": false,
-      "uuid": "d698221b-fd59-4fbc-a8dd-29e0143d0bc8",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "a6af3fba-fa45-4c96-b563-01195eec9600",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return -5 on {subtract 5, get}",
       "fullTitle": "Test calculator createCalculator() should return -5 on {subtract 5, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2163,15 +2239,15 @@
       "pending": false,
       "code": "calculator.subtract(5);<br>expect(calculator.get()).to.equal(-5);",
       "isRoot": false,
-      "uuid": "5b13b3ad-4de7-4b8d-ad44-8daaae588c40",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "ec47ec20-8f9f-4f24-92e4-14c119fd8cae",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return -280 on {add -70, add -70, add -70, add -70, get}",
       "fullTitle": "Test calculator createCalculator() should return -280 on {add -70, add -70, add -70, add -70, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2179,8 +2255,8 @@
       "pending": false,
       "code": "calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>expect(calculator.get()).to.equal(-280);",
       "isRoot": false,
-      "uuid": "7bcd5a0c-5470-445c-b420-c39360cbcf4a",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "2f3f4609-eb75-47a7-a819-0f5a99f0d235",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2195,8 +2271,8 @@
       "pending": false,
       "code": "calculator.subtract(5);<br>calculator.subtract(5);<br>expect(calculator.get()).to.equal(-10);",
       "isRoot": false,
-      "uuid": "10b6632f-b8d0-4206-ad7f-dccc4e323fb4",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "4adbe0dc-aaab-4e99-9179-29548d0201cd",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2211,8 +2287,8 @@
       "pending": false,
       "code": "calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(69);",
       "isRoot": false,
-      "uuid": "8e1b5103-be76-47ac-acf2-31b360f62226",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "7421f4d2-bf3f-4297-9072-6d96e009b55c",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2227,8 +2303,8 @@
       "pending": false,
       "code": "calculator.add(70);<br>calculator.subtract(1);<br>calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(138);",
       "isRoot": false,
-      "uuid": "e7a15944-3e2d-4e39-866f-fd6d93b1cb13",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "a28eaebc-7000-4032-9f10-f4b924e1a68e",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2243,8 +2319,8 @@
       "pending": false,
       "code": "calculator.subtract(1);<br>calculator.add(70);<br>expect(calculator.get()).to.equal(69);",
       "isRoot": false,
-      "uuid": "a09c1bd9-931d-4c6f-931c-fec35d5feda2",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "60432454-c541-4dbf-be25-e2392e67b9dc",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2259,8 +2335,8 @@
       "pending": false,
       "code": "calculator.add(0.1);<br>calculator.add(0.2);<br>expect(calculator.get()).to.equal(0.1 + 0.2);",
       "isRoot": false,
-      "uuid": "eb560df3-aef8-4f43-9ebd-e873b69925bf",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "c026a012-ead9-487c-82fa-79e71131d453",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2275,8 +2351,8 @@
       "pending": false,
       "code": "calculator.add(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "02bfa3ed-b7de-49f8-82c6-c0067dc81b90",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "57c2474b-0d46-4f2a-b3fe-802a6e329696",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2291,15 +2367,15 @@
       "pending": false,
       "code": "calculator.subtract(<span class=\"hljs-string\">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "710209ea-f91a-47dd-84d7-5c0ee1845533",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "ed9fb79f-71da-45a2-8510-d9c97d265b8e",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return 3 on {add 1.1, add 2.9, get}",
       "fullTitle": "Test calculator createCalculator() should return 3 on {add 1.1, add 2.9, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2307,8 +2383,8 @@
       "pending": false,
       "code": "calculator.add(1.1);<br>calculator.add(2.9);<br>expect(calculator.get()).to.equal(1.1 + 2.9);",
       "isRoot": false,
-      "uuid": "3ad56d08-6939-4537-9e11-d1db773bbccd",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "e3348f32-518a-42e2-b265-b30f48771d05",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2323,8 +2399,8 @@
       "pending": false,
       "code": "calculator.add(1.5);<br>calculator.subtract(18.54);<br>expect(calculator.get()).to.equal(1.5 - 18.54);",
       "isRoot": false,
-      "uuid": "c8b56814-b7db-43a6-92c5-52cf2480ffe1",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "49da8466-c085-408b-a7de-7c4c55c11303",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2339,8 +2415,8 @@
       "pending": false,
       "code": "calculator.subtract(18);<br>calculator.add(1.5);<br>expect(calculator.get()).to.equal(1.5 - 18);",
       "isRoot": false,
-      "uuid": "150032da-dc6b-47b7-855b-d13d0112eb1e",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "9350d408-df48-4e72-b83d-8ef501a860ef",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
@@ -2355,15 +2431,15 @@
       "pending": false,
       "code": "calculator.add();<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "fd5eba2b-9a48-4476-9fab-8509d245998d",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "1170cd45-0913-40a5-b2d3-40e376a6380f",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
       "skipped": false
     },
     {
       "title": "should return NaN on {subtract EMPTY, get}",
       "fullTitle": "Test calculator createCalculator() should return NaN on {subtract EMPTY, get}",
       "timedOut": false,
-      "duration": 0,
+      "duration": 1,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2371,8 +2447,24 @@
       "pending": false,
       "code": "calculator.subtract();<br>expect(calculator.get()).to.be.NaN;",
       "isRoot": false,
-      "uuid": "a23d425f-0d19-4f98-8a1c-72a324d20b6c",
-      "parentUUID": "36b5452d-aeb8-4fea-9f0f-fd03cd8824a2",
+      "uuid": "e866fa35-df26-4bf0-929a-56ada19d3bed",
+      "parentUUID": "98fc7181-bb97-4623-9faa-902e7070add4",
+      "skipped": false
+    },
+    {
+      "title": "should return 3 for [1, 2]",
+      "fullTitle": "sum(arr) should return 3 for [1, 2]",
+      "timedOut": false,
+      "duration": 1,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "expect(sum([1, 2])).to.be.equal(3);",
+      "isRoot": false,
+      "uuid": "1540d2d9-6664-42e8-b472-406f3c855b04",
+      "parentUUID": "6d686179-a167-48d3-b8de-534742224302",
       "skipped": false
     }
   ],

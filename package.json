@@ -1,0 +1,30 @@
+{
+  "name": "jsadvanced",
+  "version": "1.1.1",
+  "description": "Exercises",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mochawesome": "^1.5.3",
+    "mocha": "*"
+  },
+  "devDependencies": {
+    "mochawesome": "^1.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanyogeorgiev/temprepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanyogeorgiev/temprepo/issues"
+  },
+  "homepage": "https://github.com/tanyogeorgiev/temprepo#readme"
+}
