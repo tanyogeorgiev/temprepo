@@ -5,8 +5,8 @@ function lookupChar(string, index) {
     if (string.length <= index || index < 0) {
         return "Incorrect index";
     }
-
     return string.charAt(index);
 }
+module.exports = {lookupChar}
 
-module.export = (lookupChar)
+'adsadsa'.toString()

@@ -1,5 +1,5 @@
 let expect = require('chai').expect
-let mathEnforcer = require("../Mocha Exercises/3Math").mathEnforcer
+let mathEnforcer = require("../../Mocha Exercises/3Math").mathEnforcer
 
 describe("MATH OBJECT", function() {
 
@@ -42,7 +42,7 @@ let calc;
 
      it("should return 10 after subtractTen(12)", function() {
    let value = mathEnforcer.subtractTen(12);
-    expect(value).to.be.equal(2);
+    expect(value).to.be.equal(3);
   });
   
   

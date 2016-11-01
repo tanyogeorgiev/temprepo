@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">githubTemprepo</h1>
+          <h3 class="report-date">Tuesday, November 1 2016, 03:43pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">75<span>MS</span></li>
+                <li class="qs-item summary-suites" title="Suites">3</li>
+                <li class="qs-item summary-tests" title="Tests">35</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">35</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">75<span>MS</span></h1>
+              <h4 class="summary-label">MS</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">3</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">35</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">35</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="814a04ea-c72a-484e-a5b4-19409e97d794" class="suite has-tests has-passed">
+            <h3 class="suite-title">sum(arr) - sum array of numbers</h3>
+            <h5 class="suite-filename">\test\first-test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="814a04ea-c72a-484e-a5b4-19409e97d794" class="suite-chart" width="50" height="50" data-total-passes="5" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">3 ms</li>
+                <li class="suite-summary-item tests">5</li>
+                <li class="suite-summary-item passed">5</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#814a04ea-c72a-484e-a5b4-19409e97d794-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="814a04ea-c72a-484e-a5b4-19409e97d794-test-list" class="list-group test-list collapse in">
+                    <div id="d2c6da6b-8d54-4f84-9841-daae237cdd5f" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 3 for [1, 2]
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d2c6da6b-8d54-4f84-9841-daae237cdd5f > .test-code.collapse">Code</button>
+              <span class="test-duration fast">2 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(sum([1, 2])).to.be.equal(3);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="ae98e86c-43a5-4671-865b-04a5738dc21f" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 1 for [1]
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ae98e86c-43a5-4671-865b-04a5738dc21f > .test-code.collapse">Code</button>
+              <span class="test-duration fast">1 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(sum([1])).to.be.equal(1);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="cc0cb0e0-e6e5-4f44-8929-94a81351099c" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 0 for empty array
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#cc0cb0e0-e6e5-4f44-8929-94a81351099c > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(sum([])).to.be.equal(0);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="8b0693f6-f520-4c15-831b-df4ab41df7d2" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 3 for [1.5, 2.5, -1]
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#8b0693f6-f520-4c15-831b-df4ab41df7d2 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(sum([1.5, 2.5, -1])).to.be.equal(3);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="b91b8d4a-342f-4e65-a1f3-a4ca51664c99" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return NaN for invalid data
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b91b8d4a-342f-4e65-a1f3-a4ca51664c99 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(sum([1, 2])).to.be.equal(3);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="489c26d7-976f-44da-9bb0-0db8a5bebdf9" class="suite has-tests has-passed">
+            <h3 class="suite-title">Tests for rgbToHexColor()</h3>
+            <h5 class="suite-filename">\test\some-test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="489c26d7-976f-44da-9bb0-0db8a5bebdf9" class="suite-chart" width="50" height="50" data-total-passes="11" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">2 ms</li>
+                <li class="suite-summary-item tests">11</li>
+                <li class="suite-summary-item passed">11</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#489c26d7-976f-44da-9bb0-0db8a5bebdf9-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="489c26d7-976f-44da-9bb0-0db8a5bebdf9-test-list" class="list-group test-list collapse in">
+                    <div id="71f8d52d-fa3c-4b14-9b7c-0013047d90e9" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return #B0171F on rgbToHexColor(176,	23,	31)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#71f8d52d-fa3c-4b14-9b7c-0013047d90e9 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">2 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(<span class="hljs-number">176</span>,	<span class="hljs-number">23</span>,	<span class="hljs-number">31</span>)).to.equal(<span class="hljs-string">'#B0171F'</span>);<br>expect(rgbToHexColor(<span class="hljs-number">176</span>,	<span class="hljs-number">23</span>,	<span class="hljs-number">31</span>)).to.be.an(<span class="hljs-string">'string'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="68ae8346-24b0-4410-87b9-3dc3210c4f56" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor(176,	23,	-31)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#68ae8346-24b0-4410-87b9-3dc3210c4f56 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(176, 23, -31)).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="8c19a234-fb71-46e5-badc-9d31bf8e14d7" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return #000000 on rgbToHexColor(0, 0, 0)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#8c19a234-fb71-46e5-badc-9d31bf8e14d7 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>)).to.equal(<span class="hljs-string">'#000000'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="b234505e-7e28-43f0-9a5e-51071c3651dd" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return #FFFFFF on rgbToHexColor(255, 255, 255)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b234505e-7e28-43f0-9a5e-51071c3651dd > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(<span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">255</span>)).to.equal(<span class="hljs-string">'#FFFFFF'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="ce33beeb-d4b1-4661-9ce0-e568bd7f3a93" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return #002264 on rgbToHexColor(0, 34, 100)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ce33beeb-d4b1-4661-9ce0-e568bd7f3a93 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(<span class="hljs-number">0</span>, <span class="hljs-number">34</span>, <span class="hljs-number">100</span>)).to.equal(<span class="hljs-string">'#002264'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="b12add3b-35b6-45fb-a930-b221354199d2" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor(0, 34)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b12add3b-35b6-45fb-a930-b221354199d2 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(0, 34)).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="9ab692dc-a8b5-40bd-b7d1-5978f8012e29" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor(255, 255, 256)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#9ab692dc-a8b5-40bd-b7d1-5978f8012e29 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(255, 255, 256)).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="360e3cae-3adc-447d-8481-63743ad412d7" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor(0, -1, 0)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#360e3cae-3adc-447d-8481-63743ad412d7 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(0, -1, 0)).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="e454c4cb-9db9-47ce-a783-41c728e413ad" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor(0)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e454c4cb-9db9-47ce-a783-41c728e413ad > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(0)).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="4509825c-6317-4e7b-b0de-953ccad83325" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor(&quot;pesho&quot;)
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#4509825c-6317-4e7b-b0de-953ccad83325 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor(<span class="hljs-string">"pesho"</span>)).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="ea0de01c-1bba-4621-a4d1-7c007101e296" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return undefined on rgbToHexColor([])
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ea0de01c-1bba-4621-a4d1-7c007101e296 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(rgbToHexColor([])).to.be.undefined;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="36b5452d-aeb8-4fea-9f0f-fd03cd8824a2" class="suite has-tests has-passed">
+            <h3 class="suite-title">Test calculator createCalculator()</h3>
+            <h5 class="suite-filename">\test\sother-test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="36b5452d-aeb8-4fea-9f0f-fd03cd8824a2" class="suite-chart" width="50" height="50" data-total-passes="19" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">1 ms</li>
+                <li class="suite-summary-item tests">19</li>
+                <li class="suite-summary-item passed">19</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#36b5452d-aeb8-4fea-9f0f-fd03cd8824a2-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="36b5452d-aeb8-4fea-9f0f-fd03cd8824a2-test-list" class="list-group test-list collapse in">
+                    <div id="cf446abe-20f2-4906-90e3-763366aadec6" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should be object, instance of calculator
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#cf446abe-20f2-4906-90e3-763366aadec6 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">1 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(calculator).to.be.an(<span class="hljs-string">'object'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="39c795a2-f085-4522-8f47-1841ffff753c" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should have add, subtract, get functions
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#39c795a2-f085-4522-8f47-1841ffff753c > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(calculator.hasOwnProperty(<span class="hljs-string">'add'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class="hljs-string">'subtract'</span>)).to.be.true;<br>expect(calculator.hasOwnProperty(<span class="hljs-string">'get'</span>)).to.be.true;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="c9663aee-21aa-40fd-843a-e74d7fc2b1df" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 0 on get on empty calculator
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c9663aee-21aa-40fd-843a-e74d7fc2b1df > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">expect(calculator.get()).to.equal(0);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="1162a399-4eae-43c6-9f35-58e9e665b360" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 5 on {add 5, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#1162a399-4eae-43c6-9f35-58e9e665b360 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(5);<br>expect(calculator.get()).to.equal(5);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="aace0e72-6555-4f27-99e0-80871d7e5b68" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 5 on {add &quot;5&quot;, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#aace0e72-6555-4f27-99e0-80871d7e5b68 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(<span class="hljs-string">"5"</span>);<br>expect(calculator.get()).to.equal(<span class="hljs-number">5</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="3d23e8b0-5805-4901-b9f2-15411344e697" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return -5 on {subtract 5, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#3d23e8b0-5805-4901-b9f2-15411344e697 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.subtract(5);<br>expect(calculator.get()).to.equal(-5);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="d4063be6-be05-462b-9aa5-c687cfc3adf6" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return -280 on {add -70, add -70, add -70, add -70, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d4063be6-be05-462b-9aa5-c687cfc3adf6 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>calculator.add(-70);<br>expect(calculator.get()).to.equal(-280);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="f0fae47f-f3fa-446b-b138-50bc3a5bd4df" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return -10 on {subtract 5, subtract 5, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#f0fae47f-f3fa-446b-b138-50bc3a5bd4df > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.subtract(5);<br>calculator.subtract(5);<br>expect(calculator.get()).to.equal(-10);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="d1322ea7-1b79-4840-8ddd-981a7b4cdc48" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 69 on {add 70, subtract 1, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d1322ea7-1b79-4840-8ddd-981a7b4cdc48 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(69);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="984954d0-c343-41df-95c8-da2a46143f75" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 138 on {add 70, subtract 1, add 70, subtract 1, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#984954d0-c343-41df-95c8-da2a46143f75 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(70);<br>calculator.subtract(1);<br>calculator.add(70);<br>calculator.subtract(1);<br>expect(calculator.get()).to.equal(138);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="f46d3fe1-10a4-4430-8acd-c77dd15d54f4" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 69 on {subtract 1, add 70, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#f46d3fe1-10a4-4430-8acd-c77dd15d54f4 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.subtract(1);<br>calculator.add(70);<br>expect(calculator.get()).to.equal(69);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="fcfb414c-6ec3-46b6-92d6-cd5f826482f2" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 0.30000000000000004 on {add 0.1, add 0.2, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#fcfb414c-6ec3-46b6-92d6-cd5f826482f2 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(0.1);<br>calculator.add(0.2);<br>expect(calculator.get()).to.equal(0.1 + 0.2);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="546eec87-70b7-433d-86ec-767310b5bd4c" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return NaN on {add &quot;pesho&quot;, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#546eec87-70b7-433d-86ec-767310b5bd4c > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(<span class="hljs-string">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="942e225c-3ef3-4183-999a-246ad3eaf404" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return NaN on {subtract &quot;pesho&quot;, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#942e225c-3ef3-4183-999a-246ad3eaf404 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.subtract(<span class="hljs-string">'pesho'</span>);<br>expect(calculator.get()).to.be.NaN;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="a0eda800-677b-4210-b2fa-4f46f7ff646b" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 3 on {add 1.1, add 2.9, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a0eda800-677b-4210-b2fa-4f46f7ff646b > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(1.1);<br>calculator.add(2.9);<br>expect(calculator.get()).to.equal(1.1 + 2.9);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="bde17227-b3d1-458c-93be-fabdc63afed6" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 16.5 on {add 1.5, subtract 18.54, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#bde17227-b3d1-458c-93be-fabdc63afed6 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add(1.5);<br>calculator.subtract(18.54);<br>expect(calculator.get()).to.equal(1.5 - 18.54);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="41af8e9c-cfe6-4559-860d-afc538a325c8" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return 16.5 on {subtract 18, add 1.5, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#41af8e9c-cfe6-4559-860d-afc538a325c8 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.subtract(18);<br>calculator.add(1.5);<br>expect(calculator.get()).to.equal(1.5 - 18);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="196168a9-0a75-4fdd-af22-d582478f49f4" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return NaN on {add EMPTY, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#196168a9-0a75-4fdd-af22-d582478f49f4 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.add();<br>expect(calculator.get()).to.be.NaN;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="4420fdb5-f5c1-4f72-8c0b-54b59b9396ad" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              should return NaN on {subtract EMPTY, get}
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#4420fdb5-f5c1-4f72-8c0b-54b59b9396ad > .test-code.collapse">Code</button>
+              <span class="test-duration fast">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">calculator.subtract();<br>expect(calculator.get()).to.be.NaN;</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#814a04ea-c72a-484e-a5b4-19409e97d794" class="nav-menu-item-link has-passes">sum(arr) - sum array of numbers</a>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#489c26d7-976f-44da-9bb0-0db8a5bebdf9" class="nav-menu-item-link has-passes">Tests for rgbToHexColor()</a>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#36b5452d-aeb8-4fea-9f0f-fd03cd8824a2" class="nav-menu-item-link has-passes">Test calculator createCalculator()</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>

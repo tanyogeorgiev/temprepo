@@ -1,5 +1,5 @@
 let expect = require('chai').expect
-let isOddOrEven = require("../Mocha Exercises/evenorodd").isOddOrEven
+let isOddOrEven = require("../../Mocha Exercises/evenorodd").isOddOrEven
 
 describe("isOddOrEven(number) testing", function() {
   it("should return undefined for (2)", function() {

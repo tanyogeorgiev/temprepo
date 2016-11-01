@@ -1,5 +1,5 @@
 let expect = require('chai').expect
-let lookupChar = require("../Mocha Exercises/2CharLookup").lookupChar
+let lookupChar = require("../../Mocha Exercises/2CharLookup").lookupChar
 
 describe("lookupChar(string,index) testing", function() {
   it("should return undefined for (2,2)", function() {
