@@ -51,11 +51,19 @@ let calc;
    let value = mathEnforcer.addFive([2]);
     expect(value).to.be.undefined;
   });
+  it('should return 5 on addFive(0)', () => {
+            expect(mathEnforcer.addFive(0)).to.equal(5);
+        });
 
      it("should return 10 after sum(5,5)", function() {
    let value = mathEnforcer.sum(5,5);
     expect(value).to.be.equal(10);
   });
+    it("should return 10 after sum(5,5)", function() {
+   let value = mathEnforcer.sum(0,5);
+    expect(value).to.be.equal(5);
+  });
+  
      it("should return 10 after sum(0.01,5)", function() {
    let value = mathEnforcer.sum(5.001,0.001);
     expect(value).to.be.equal(5.001+0.001);
@@ -84,6 +92,15 @@ let calc;
 
    it("should return undefined after sum('20','10')", function() {
    let value = mathEnforcer.sum('20','10');
+    expect(value).to.be.undefined;
+  });
+
+    it("should return undefined after sum('20','10')", function() {
+   let value = mathEnforcer.sum(20,'10');
+    expect(value).to.be.undefined;
+  });
+    it("should return undefined after sum('20','10')", function() {
+   let value = mathEnforcer.sum('20',10);
     expect(value).to.be.undefined;
   });
 
